@@ -308,8 +308,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 var colCache = require('../utils/col-cache');
 
-var _require = require('../xlsx/xform/drawing/ext-xform'),
-    EMU_PER_PIXEL_AT_96_DPI = _require.EMU_PER_PIXEL_AT_96_DPI;
+var EMU_PER_PIXEL_AT_96_DPI = 9525;
 
 var Anchor = /*#__PURE__*/function () {
   function Anchor(worksheet, address) {
@@ -404,7 +403,7 @@ var Anchor = /*#__PURE__*/function () {
 
 module.exports = Anchor;
 
-},{"../utils/col-cache":19,"../xlsx/xform/drawing/ext-xform":64}],3:[function(require,module,exports){
+},{"../utils/col-cache":19}],3:[function(require,module,exports){
 "use strict";
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
