@@ -317,6 +317,8 @@ var Anchor = /*#__PURE__*/function () {
 
     _classCallCheck(this, Anchor);
 
+    this.worksheet = worksheet;
+
     if (!address) {
       this.nativeCol = 0;
       this.nativeColOff = 0;
@@ -342,8 +344,6 @@ var Anchor = /*#__PURE__*/function () {
       this.nativeRow = 0;
       this.nativeRowOff = 0;
     }
-
-    this.worksheet = worksheet;
   }
 
   _createClass(Anchor, [{
